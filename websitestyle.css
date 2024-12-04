@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: "Nunito Sans", serif;
+}
+.header{
+    min-height:100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("website\ bg\ image.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#store{
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    margin-left: 325px;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    animation: title;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+#store:hover{
+    color: #000;   
+}
+@keyframes title{
+    0%{font-size:80px;}
+    100%{font-size:85px ;}
+
+}
+#logoid{
+    height: 15px;
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-content: center;
+}
+nav img{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.about{
+    flex:1;
+    text-align: right;
+}
+.about ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px 12px;
+    position: relative;
+}
+.about ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.about ul li a:hover{
+    color:rgb(165, 208, 236);
+}
+.textbox{
+    width: 90%;
+    color: #fff;
+    top:50%;
+    bottom: 50%;
+    position: absolute;
+    text-align: center;
+    margin-left: 85px;
+}
+.textbox h1{
+    font-size: 61px;
+}
+.textbox p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.visitbutton{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding:12px  34px;
+    font-size:13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.visitbutton:hover{
+    border: 1px solid #fff;
+    background: #000;
+    transition: 1s;
+}
+.service{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 24px;
+}
+.row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+#para{
+    flex-basis: 25%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+}
+#para:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+#mobile{
+    margin-top: 20px;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:2px solid black;
+}
+.button{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding:12px  30px;
+    font-size:13px;
+    border-radius: 20%;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid #000;
+    background: #000;
+    color:white;
+    transition: 1s;
+}
+/* Footer */
+.footer {
+    background-color: #2d3748;
+    color: white;
+    padding: 4rem 2rem;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links a {
+    color: #a0aec0;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid #4a5568;
+    color: #a0aec0;
+  }
